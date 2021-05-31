@@ -2,7 +2,7 @@ language: java
 jdk: openjdk11
 os: linux
 dist: trusty
-before_script:
-  - chmod 777 ./gradlew
+before_install:
+  - chmod +x gradlew
 #after_success:
  # - bash <(curl -s https://codecov.io/bash)
